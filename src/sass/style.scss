@@ -11,8 +11,17 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
+}
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 60px auto;
+    &_left {
+        margin: 0
+    }
 }
 @import 'blocks/promo';
 @import 'blocks/title';
@@ -20,4 +29,9 @@
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/about-me';
-@import 'blocks/divider';
+@import 'blocks/resume';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/price';
+@import 'blocks/contacts';
+@import 'blocks/media';
